@@ -3,6 +3,7 @@ package com.kremogen;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        MainWindow match = new MainWindow();
+        match.setVisible(true);
     }
 }
